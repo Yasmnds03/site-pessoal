@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'cabecalho';
+    src: url(/fonts/DMSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'bio';
+    src: url(/fonts/IBMPlexSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'rodape';
+    src: url(/fonts/PTSansNarrow-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+img {
+    width: 50px;
+}
+
+
+#header {
+    height: 25vh;
+    width: 100%;
+    background: #d1b3c4;
+    display: flex;
+    align-items: center;
+}
+
+#header h1 {
+    font-family: 'cabeçalho';
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+    padding-left: 5px;
+}
+
+.info-container {
+    display: flex;
+    width: 100%;
+    /* height: 60vh; */
+    background-color: white;
+} 
+
+#container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#perfil {
+    width: 30%; 
+    background-color: rgb(227, 217, 217);
+    padding-bottom: 63px;
+}
+#perfil h2{
+    padding: 8px 0 5px 0;
+    text-align: center;
+    font-family: 'bio';
+    color: #0c0a3e;
+}
+
+#perfil img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 75%;
+    border-radius:50%;
+    border: 10px solid gray;
+}
+
+#perfil p{
+    font-family: 'bio';
+    font-size: 23px;
+    color: rgb(71, 70, 70);
+    text-align: center;
+    padding: 15px 0 4px 0;
+   
+}
+
+
+
+#container h2 {
+    font-family: 'bio';
+    font-size: 35px;
+    color: #7b1e7a;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding-left: 5px;
+}
+
+#container p {
+    font-family: 'rodape';
+    font-size: 27px;
+    color: rgb(46, 45, 45);
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+span {
+    font-size: 20px; 
+    font-family: 'rodape';
+    color: white;
+}
+
+
+
+#footer {
+    padding: 15px;
+    background: #0c0a3e;
+}
+
+#footer p{
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-family: 'rodape';
+    color: white;
+
+}
+#footer img{
+    width: 27px;
+}
+
+
+@media screen and (max-width: 670px) {
+
+    img {
+        width: 50px;
+    }
+    
+    
+    
+    #header {
+        height: 25vh;
+        width: 100%;
+        background: #d1b3c4;
+        text-align: center;
+    }
+    
+    #header h1 {
+        font-family: 'cabeçalho';
+        font-size: 40px;
+        color: white;
+        text-shadow: 3px 2px 2px black;
+        margin: auto;
+    }
+    
+    .info-container {
+        display: flex;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+    } 
+
+    #container {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    
+    #perfil {
+        width: 100%;
+        align-items: center;
+        background-color: rgb(227, 217, 217);
+    }
+    
+    #perfil img{
+        width: 60%;    
+        border-radius:50%;
+        border: 8px solid gray;
+        margin-top: 15px;
+    }
+    #perfil h2{
+        padding: 10px 0 5px 0;
+        font-family: 'cabecalho';
+    }
+    
+    #perfil p{
+        font-family: 'bio';
+        font-size: 100%;
+        color: black;
+        text-align: center;
+        margin: 13px 0 5px 0;
+    }
+    
+   
+    
+    #container h2 {
+        font-family: 'bio';
+        font-size: 27px; 
+        text-align: center; 
+        color: #7b1e7a;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+    
+    #container p {
+        font-family: 'rodape';
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    
+    
+    span {
+        font-size: 20px; 
+        font-family: 'rodape';
+        color: white;
+    }
+    
+    p {
+        font-size: 20px;
+        font-family: 'rodape';
+        color: white;
+    }
+    
+    #footer {
+        padding: 15px;
+        text-align: center;
+
+    }
+    
+    #footer img {         
+        width: 25px;
+    }
+    #footer p{
+        font-size: 17px;
+        padding: 4px 0 8px 0;
+    }
+}
